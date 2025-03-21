@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:1.10.5 as terraform
+FROM hashicorp/terraform:1.11.2 as terraform
 FROM mcr.microsoft.com/azure-cli:2.70.0
 ARG KUBECTL_VERSION=1.30.10
 
