@@ -1,5 +1,5 @@
 FROM hashicorp/terraform:1.10.5 as terraform
-FROM mcr.microsoft.com/azure-cli:2.70.0
+FROM mcr.microsoft.com/azure-cli:2.71.0
 ARG KUBECTL_VERSION=1.30.10
 
 WORKDIR /viya4-iac-azure
